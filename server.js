@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     res.end('Hello World ') 
 
 });
-server.listen(3010, () => {
+server.listen(3000, () => {
     console.log("Servidor Inciado")
 })
 
